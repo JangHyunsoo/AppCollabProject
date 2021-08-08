@@ -1,0 +1,169 @@
+#################
+#               #
+# kotlin ignore #
+#               #
+#################
+
+### https://github.com/JetBrains/kotlin/blob/master/.gitignore
+
+.DS_Store
+.idea/shelf
+/confluence/target
+/dependencies/repo
+/android.tests.dependencies
+/dependencies/android.tests.dependencies
+/dist
+/local
+/gh-pages
+/ideaSDK
+/clionSDK
+/android-studio/sdk
+out/
+/tmp
+intellij/
+workspace.xml
+*.versionsBackup
+/idea/testData/debugger/tinyApp/classes*
+/jps-plugin/testData/kannotator
+/js/js.translator/testData/out/
+/js/js.translator/testData/out-min/
+/js/js.translator/testData/out-pir/
+.gradle/
+build/
+!**/src/**/build
+!**/test/**/build
+*.iml
+!**/testData/**/*.iml
+.idea/libraries/Gradle*.xml
+.idea/libraries/Maven*.xml
+.idea/artifacts/PILL_*.xml
+.idea/artifacts/KotlinPlugin.xml
+.idea/modules
+.idea/runConfigurations/JPS_*.xml
+.idea/runConfigurations/PILL_*.xml
+.idea/runConfigurations/_FP_*.xml
+.idea/runConfigurations/_MT_*.xml
+.idea/libraries
+.idea/modules.xml
+.idea/gradle.xml
+.idea/compiler.xml
+.idea/inspectionProfiles/profiles_settings.xml
+.idea/.name
+.idea/artifacts/dist_auto_*
+.idea/artifacts/dist.xml
+.idea/artifacts/ideaPlugin.xml
+.idea/artifacts/kotlinc.xml
+.idea/artifacts/kotlin_compiler_jar.xml
+.idea/artifacts/kotlin_plugin_jar.xml
+.idea/artifacts/kotlin_jps_plugin_jar.xml
+.idea/artifacts/kotlin_daemon_client_jar.xml
+.idea/artifacts/kotlin_imports_dumper_compiler_plugin_jar.xml
+.idea/artifacts/kotlin_main_kts_jar.xml
+.idea/artifacts/kotlin_compiler_client_embeddable_jar.xml
+.idea/artifacts/kotlin_reflect_jar.xml
+.idea/artifacts/kotlin_stdlib_js_ir_*
+.idea/artifacts/kotlin_test_js_ir_*
+.idea/artifacts/kotlin_stdlib_wasm_*
+.idea/jarRepositories.xml
+.idea/csv-plugin.xml
+.idea/libraries-with-intellij-classes.xml
+node_modules/
+.rpt2_cache/
+libraries/tools/kotlin-test-js-runner/lib/
+local.properties
+buildSrcTmp/
+distTmp/
+outTmp/
+/test.output
+/kotlin-native/dist
+
+############################
+#                          #
+# golang(gin-gonic) ignore #
+#                          #
+############################
+
+# directory structure
+bin/*
+pkg/*
+!.gitkeep
+
+# goop - go package manager
+.vendor
+
+
+
+#############################
+#  $ gibo Go JetBrains OSX  #
+#############################
+
+### https://github.com/osamingo/golang-gin-example/blob/master/.gitignore
+### https://raw.github.com/github/gitignore/5a339cce0d8ccac36e71b077ef39a55c682d6d91/Go.gitignore
+
+# Compiled Object files, Static and Dynamic libs (Shared Objects)
+*.o
+*.a
+*.so
+
+# Folders
+_obj
+_test
+
+# Architecture specific extensions/prefixes
+*.[568vq]
+[568vq].out
+
+*.cgo1.go
+*.cgo2.c
+_cgo_defun.c
+_cgo_gotypes.go
+_cgo_export.*
+
+_testmain.go
+
+*.exe
+*.test
+*.prof
+
+
+### https://raw.github.com/github/gitignore/5a339cce0d8ccac36e71b077ef39a55c682d6d91/Global/JetBrains.gitignore
+
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm
+
+/*.iml
+
+## Directory-based project format:
+.idea/
+
+## File-based project format:
+*.ipr
+*.iws
+
+## Plugin-specific files:
+
+# IntelliJ
+out/
+
+
+### https://raw.github.com/github/gitignore/5a339cce0d8ccac36e71b077ef39a55c682d6d91/Global/OSX.gitignore
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
